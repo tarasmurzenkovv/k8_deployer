@@ -2,7 +2,7 @@ import org.gradle.api.JavaVersion.VERSION_17
 
 plugins {
     id("java")
-    id("maven")
+    id("maven-publish")
 }
 
 group = "com.github.tarasmurzenkovv"
