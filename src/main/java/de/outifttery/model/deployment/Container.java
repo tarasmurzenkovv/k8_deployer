@@ -3,8 +3,8 @@ package de.outifttery.model.deployment;
 import lombok.Builder;
 import lombok.RequiredArgsConstructor;
 
-@Builder(builderMethodName = "image")
+@Builder
 @RequiredArgsConstructor
-public final class Container extends DeploymentElement {
+public final class Container extends K8Element {
     private final String imageName, imageTag;
 }

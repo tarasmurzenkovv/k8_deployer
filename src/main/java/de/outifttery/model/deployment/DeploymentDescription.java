@@ -4,7 +4,7 @@ import lombok.Builder;
 import lombok.Getter;
 
 @Getter
-@Builder(builderMethodName = "deployment")
+@Builder
 public class DeploymentDescription {
     private final String nameSpace = "default";
     private final String deploymentName;
